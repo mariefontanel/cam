@@ -1,0 +1,61 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image:url(asset-path('flash_iridium.jpeg'));
+	background-size: cover;
+}
+.titre {
+	text-align: center;
+	color: white;
+	margin: 3%;
+}
+.menu-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+.menu-nav a {
+	text-decoration: none;
+	color: black;
+	padding: 1%;
+	background-color: #C7D0CC;
+	border-radius: 3px;
+	margin: 0.4%;
+
+}
+
+.container {
+	width: 100%;
+	height: 450px;
+}
+
+.info-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	background-color: #9E9E9E;
+	}
+
+.info-footer-adresse, .info-footer-coordonnees{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 48%;
+}
+
+.info-footer {
+	padding: 1%;
+}
+
+.info-footer p {
+	line-height: 1.5;
+}
